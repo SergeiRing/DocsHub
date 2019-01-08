@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+  <link href="static/reg.css", rel="stylesheet", text="text/css"/>
+  <meta charset="UTF-8" />
+ </head>
+
+ <body>
+  <p>DocsHub®</p>
+  <div class="main">
+   <form class="send", action="{{ url_for('register') }}", method="POST">  
+    {{ name(placeholder="Your name", class="name", autocomplete="off") }}
+    {{ surname(placeholder="Your surname", class="surname", autocomplete="off") }}
+    {{ email(placeholder="Your Email", class="email", autocomplete="off") }}
+    {{ password(placeholder="Your password", class="password", autocomplete="off") }}
+    <button type="submit">Enter</button>
+   </form>
+   <text>{{ error }}</text>
+  </div>
+ </body>
+
+</html>

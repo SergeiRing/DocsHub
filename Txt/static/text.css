@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'Bauhaus93';
+    src: local(Bauhaus93), url(Bauhaus93.ttf);
+}
+
+body{
+	background-color: #000000;
+}
+
+.main{
+	font-family: 'Bauhaus93';
+	font-size: 72px;
+	color: #FFFFFF;
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	margin: none;
+
+}
+
+.docs{
+	font-family: 'Bauhaus93';
+	font-size: 30px;
+	color: #FFFFFF;
+	position: relative;
+	top: 200px;
+	left: 100px;
+	width: 200px;
+}
+
+button{
+	display: block;
+	font-family: 'Bauhaus93';
+	font-size: 15px;
+	background-color: #000000;
+	color: #FFFFFF;
+	border-radius: 7px;
+	position: relative;
+	top: 140px;
+	left: 300px;
+	width: 100px;
+	height: 25px;
+	outline: none;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+  <link href="static/edit_text.css", rel="stylesheet", text="text/css"/>
+ </head>
+
+ <body>
+  <p class="logo">DocsHub®</p>
+  <form action="{{ url_for('Txt.text', id = t_object.id) }}", method="POST">
+   {{ name(class="input") }}
+   {{ text(class="edit") }}
+   <button class="submit", type="submit">SAVE>></button>
+  </form>
+ </body>
+
+</html>

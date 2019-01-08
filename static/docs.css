@@ -1,0 +1,71 @@
+body{
+	background-color: #000000;
+}
+
+@font-face{
+    font-family: 'Bauhaus93';
+    src: local(Bauhaus93), url(Bauhaus93.ttf);
+}
+
+.p{	
+	font-family: 'Bauhaus93';
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-left: 50px;
+	font-family: 'Bauhaus93';
+	font-size: 35px;
+}
+
+button{
+	background-color: #000000;
+	width: 300px;
+	height: 280px;
+	position: absolute;
+	border: 5px;
+	border-color: #656565;
+	border-style: solid;
+	border-radius: 10px;
+	text-align: center;
+    transition: 1s all;
+    color: #656565;
+}
+
+.img{
+	top: 150px;
+	left: 50px;
+}
+
+.mus{
+	top: 150px;
+	left: 400px;
+}
+
+.txt{
+	top: 480px;
+	left: 50px;
+}
+
+.code{
+	top: 480px;
+	left: 400px;
+}
+
+a{
+	font-family: 'Bauhaus93';
+	font-size: 35px;
+	text-decoration: none;
+	color: #656565;
+}
+
+.marg{
+	margin: 100px;
+	font-family: 'Bauhaus93';
+	font-size: 30px;
+	margin-left: 90px;
+}
+
+button:hover{
+    border-color: #FFFFFF;
+    box-shadow: 10px 5px #656565;
+    color: #FFFFFF;
+}

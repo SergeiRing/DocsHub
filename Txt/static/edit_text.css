@@ -1,0 +1,63 @@
+body{
+  background-color: #000000;
+}
+
+@font-face{
+    font-family: 'Bauhaus93';
+    src: local(Bauhaus93), url(Bauhaus93.ttf);
+}
+
+.logo {
+  font-size: 30px;
+  font-family: "Bauhaus 93";
+  color: rgb( 255, 255, 255 );
+  text-align: left;
+  position: absolute;
+  left: 72px;
+  top: 20px;
+  z-index: 6;
+}
+
+.edit {
+  font-family: 'Bauhaus93';
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 1000px;
+  top: 55px;
+  width: 800px;
+  height: 930px;
+  z-index: 2;
+  resize: none;
+  padding-left: 10px;
+}
+
+.submit {
+  border-radius: 10px;
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 750px;
+  top: 955px;
+  width: 150px;
+  height: 40px;
+  z-index: 3;
+  font-size: 25px;
+  font-family: "Bauhaus 93";
+  color: #000000;
+
+}
+
+
+.input{
+  font-family: 'Bauhaus 93';
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+  top: 10px;
+  left: 1000px;
+  width: 800px;
+  height: 30px;
+  border-radius: 7px;
+  padding-left: 10px;
+}
